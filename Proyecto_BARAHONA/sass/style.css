@@ -1,0 +1,168 @@
+header {
+  display: flex;
+  background-color: #303030;
+  height: 15vh;
+  padding: 0px;
+  margin: 0px;
+}
+header .logo {
+  align-items: center;
+  width: 100%;
+  /* background-color: seagreen; */
+  margin: 0 0px;
+}
+header .logo img {
+  width: auto;
+  height: 100%;
+  margin: 0 20px;
+  padding: 10px 20px;
+  filter: invert(1);
+  transform: scaleX(-1);
+}
+header .nav_container {
+  width: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  justify-content: center;
+}
+header .nav_container ul {
+  background-color: salmon;
+  height: 100%;
+  display: flex;
+  padding: 10px 20px;
+  list-style: none;
+  align-items: center;
+}
+header .nav_container li {
+  display: flex;
+  background-color: cyan;
+  margin: 0 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #303030;
+  margin: 20px 2vw;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue";
+}
+main .logo {
+  align-items: center;
+  width: 50%;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+}
+main .logo img {
+  width: 25%;
+  height: auto;
+  margin: 0 20px;
+  padding: 0px 20px;
+  transform: scaleX(-1);
+}
+main .title {
+  font-family: "Bebas Neue";
+  margin: 5px;
+  justify-self: center;
+  color: #fff;
+}
+main .contenedor_img {
+  background-color: chocolate;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 0px;
+  padding: 10px 0px;
+}
+main .contenedor_img img {
+  height: auto;
+  border: 2px solid #fff;
+}
+main .table {
+  background-color: #fff;
+  text-align: start;
+  text-justify: center;
+}
+main .table tbody {
+  background-color: lightsteelblue;
+  text-align: center;
+  position: relative;
+}
+main .table tbody th {
+  text-align: start;
+}
+main .table tbody td {
+  text-align: start;
+  font-size: 16px;
+  padding-top: 10px;
+}
+main .table tbody .icon_container {
+  display: flex;
+  justify-content: start;
+}
+main .table tbody .icon_container img {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: -25px;
+}
+main .table th {
+  font-size: 20px;
+}
+
+/* tarjetas pokemon */
+.pokemon_block {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 0px 20px;
+  box-shadow: 0 3px 15xp darkslategray;
+  margin: 20px;
+}
+
+.img_container {
+  background-image: url(../bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.img_container img {
+  width: 100%;
+  padding: 10px;
+}
+
+h5, h6 {
+  font-family: "Bebas Neue";
+  margin: 5px;
+}
+
+.table {
+  font-family: "Bebas Neue";
+  /*         tr{
+
+              td{
+
+              display: flex;
+              justify-content: space-around;
+              align-items:flex-end;
+
+          }
+      } */
+}
+
+footer {
+  background-color: #303030;
+  height: 10vh;
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
